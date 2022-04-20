@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    margin: 15px;
+    text-align: center;
+}
+/* After Input is taken */
+.input-taken{
+    border: 1px solid black;
+}
+
+/* Styling Input-text section */
+#input-section{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.input-text{
+    border: 2px solid #d3d6da;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    max-width: 40px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+/* STyling keyboard section */
+.col-key{
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+#keyboard-section{
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.first-keyboard{
+    display: flex;
+    justify-content: center;
+}
+
+.keyboard-key1{
+    padding:10px;
+    background-color: #d3d6da;
+    border-radius: 5px;
+    border: none;
+}
+.second-keyboard{
+    display: flex;
+    justify-content: center;
+}
+.keyboard-key2{
+    margin-bottom: 1%;
+    padding:10px;
+    background-color: #d3d6da;
+    border-radius: 5px;
+    border: none;
+}
+
+.third-keyboard{
+    display: flex;
+    justify-content: center;
+}
+.keyboard-key3{
+    border: none;
+    margin-bottom: 1%;
+    padding:10px;
+    background-color: #d3d6da;
+    border-radius: 5px;
+}
+/*  
+.keyboard-key2{
+    margin-bottom: 1%;
+    margin-right: 1%;
+    width: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #d3d6da;
+    border-radius: 5px;
+}
+.keyboard-key3{
+    margin-bottom: 1%;
+    margin-right: 1%;
+    width: 10px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #d3d6da;
+    border-radius: 5px;
+} */
+/* STyling Favicon */
+.fa-solid{
+    padding-top: 5px;
+}
+.enter{
+    padding: 14px;
+}
+
+/* MEDIA QUERTIES */
+@media  screen and (min-width:450px) {
+    .input-text{
+        max-width: 50px;
+        height: 60px;
+    }
+    #keyboard-section{
+        width: 80%;
+        margin: auto;
+    }
+    .keyboard-key1{
+        padding: 15px;
+    }
+    .keyboard-key2{
+        padding: 12px;
+    }
+    .keyboard-key3{
+        padding: 15px;
+    }
+}
+@media  screen and (min-width:750px){
+    #keyboard-section{
+        width: 60%;
+        margin: auto;
+    }
+    .keyboard-key1{
+        padding-right: 20px;
+    }
+    .keyboard-key2{
+        padding:20px;
+    }
+    .keyboard-key3{
+        padding: 20px;
+    }
+}
+
+
